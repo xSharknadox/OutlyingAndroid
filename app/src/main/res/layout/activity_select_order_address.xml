@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Країна: "
+        android:textSize="16dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Spinner
+        android:id="@+id/select_order_address_countries_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Область"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Spinner
+        android:id="@+id/select_order_address_regions_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Місто"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Spinner
+        android:id="@+id/select_order_address_cities_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Вулиця"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Spinner
+        android:id="@+id/select_order_address_streets_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дім"
+        android:textSize="16dp"
+        android:layout_marginHorizontal="10dp"/>
+
+    <Spinner
+        android:id="@+id/select_order_address_houses_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"/>
+
+
+    <Button
+        android:id="@+id/select_order_address_ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ок"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
